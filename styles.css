@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.pupop .mapboxgl-popup-content {
+    opacity: .8;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    align-items: center;
+    background-color: dodgerblue;
+    padding: 50px 25px 25px 25px;
+    border: 0.5em black;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+
+}
